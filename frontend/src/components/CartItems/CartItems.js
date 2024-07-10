@@ -51,7 +51,7 @@ const CartItems = () => {
             qty_price:{}
         });
         console.log(cart)
-        toast.success("Order submitted:D")
+        toast.success("Order submitted")
     }    
     const removeFromCart=(item)=>{
         setCart(prevCart => {

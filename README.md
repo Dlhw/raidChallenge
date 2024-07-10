@@ -17,3 +17,5 @@
 17. As a customer, I want the fruit store pages to load quickly at all times, so that I can browse and shop without delays. (hmm i didn't do pagination)
 
 I seeded the database with some fruit stocks and an admin user, the details can be found in backend/seed/
+
+I also place dummy values for process.env so it should work, but if it doesn't put a .env file in the backend folder
