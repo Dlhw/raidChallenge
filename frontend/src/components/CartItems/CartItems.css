@@ -1,0 +1,89 @@
+.clear-button:hover {
+    cursor:pointer;
+    background-color: bisque;
+}
+
+.cartItems {
+    margin: 25px 170px; /* top bottom 100, left right 170*/
+}
+
+.cartItems hr{
+    height:3px;
+    background: #e2e2e2;
+    border:0;
+}
+
+.cartItems img{
+    height:150px;
+    width:150px;
+}
+
+.cart-cols {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    align-items: center;
+    gap:75px;
+    padding:20px 0px;
+    color:#454545;
+    font-size:18px;
+    font-weight:600;
+}
+
+.emptyCart-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.emptyCart-logo img{
+    height: auto;
+    width:20%;
+}
+
+.emptyCart-logo button{
+    cursor: pointer;
+}
+
+
+.checkout-box{
+    display:flex;
+    justify-content: flex-end;
+}
+
+.checkout{
+    width:30%;
+    display:flex;
+    flex-direction: column;
+    margin-inline: 10%;
+}
+
+
+.checkout a{
+    align-self: flex-end;
+}
+
+.checkout button{
+    align-self: flex-end;
+    cursor: pointer;
+}
+
+.checkout-row {
+    display:flex;
+    justify-content: space-between;
+
+}
+
+.check-out-details{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.check-out-details hr{
+    width: 100%; /* Ensure it spans the full width */
+}
+
+.number-input-container {
+    margin-top: 26px;
+}

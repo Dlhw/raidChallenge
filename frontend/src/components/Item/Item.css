@@ -1,0 +1,43 @@
+.item {
+    display:flex;
+    flex-direction: column;
+    gap:5px;
+    width:350px;
+}
+
+.item img{
+    width:300px;
+    height: 300px;
+}
+
+.item p{
+    margin:6px 0px;
+    width:50%;
+    align-self: center;
+}
+
+.price-stock{
+    display:flex;
+    width:50%;
+    gap:20px
+}
+
+.item-price{
+    font-size:18px;
+    font-weight: 600;
+}
+
+.item-stock{
+    font-size:18px;
+    font-weight: 600;
+}
+
+
+.top-row,.bot-row{
+    display: flex;
+    justify-content: space-between;
+}
+
+.right-aligned-button{
+    width:50%
+}

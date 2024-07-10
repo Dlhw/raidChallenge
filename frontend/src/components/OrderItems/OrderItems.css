@@ -1,0 +1,66 @@
+
+.order-cols {
+    display: grid;
+    grid-template-columns: 0.8fr 0.8fr 0.5fr 0.5fr 0.5fr 0.5fr;
+    justify-items: center;
+    align-items: center;
+    color:#454545;
+    font-size:18px;
+    font-weight:600;
+}
+
+
+.purchased-details {
+    display: flex;
+    flex-direction: column;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.header-row {
+    display: grid;
+    grid-template-columns: 1fr 0.8fr 0.8fr;
+    font-weight: bold;
+    justify-items: center;
+    justify-content: space-around;
+}
+
+.order-details {
+    display: grid;
+    grid-template-columns: 1fr 0.8fr 0.8fr;
+    gap: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    justify-items: center;
+    width:100%
+}
+
+.order-details p {
+    padding: 5px;
+}
+
+.cartItems-row hr{
+    width: 100%;
+}
+
+
+.actions {
+    display:flex;
+    align-items: center;
+    justify-items: center;
+    
+}
+
+.actions p{
+    font-size: 30px;
+    font-weight: 0.5px;
+}
+
+.fulfill-button:hover{
+    cursor: pointer;
+    background-color: #ccc;
+}
+.cancel-button:hover{
+    cursor: pointer;
+    background-color: #ccc;
+}
+

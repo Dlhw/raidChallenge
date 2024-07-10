@@ -1,0 +1,25 @@
+.order {
+    padding: 20px;
+}
+
+.order-cols {
+    display: grid;
+    grid-template-columns: 0.8fr 0.8fr 0.5fr 0.5fr 0.5fr 0.5fr;
+    justify-items: center;
+    align-items: center;
+    color:#454545;
+    font-size:18px;
+    font-weight:600;
+}
+
+.noOrders{
+    display: flex;
+    height:30vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.fulfill-button:hover .cancel-button:hover{
+    cursor: pointer;
+    background-color: #ccc;
+}
