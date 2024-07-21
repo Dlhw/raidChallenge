@@ -18,15 +18,16 @@
 
 To start frontend:
 
-cd frontend
-npm install
+cd frontend\
+npm install\
 npm start
 
 To start backend:
 
-cd backend
-npm install
+cd backend\
+npm install\
 npm run dev
 
-I also place dummy values for process.env so it should work, but if it doesn't put a .env file in the backend folder, with PORT,MONGO_URI and JWT_SECRET specified.
-I seeded the database with some fruit stocks and an admin user, the details can be found in backend/seed/
+I also place dummy values for process.env so it should work, but if it doesn't put a .env file in the backend folder, with PORT,MONGO_URI and JWT_SECRET specified.\
+I seeded the database with some fruit stocks and an admin user, the details can be found in backend/seed/\
+You need mongoDb service to be running for the backend to work.
